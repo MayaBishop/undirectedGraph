@@ -1,0 +1,23 @@
+//test all failures
+i City0
+i City0
+setd City0;City1;10.0
+i City1
+setd City0;City1;-10.0
+setd City0;City1;10.0
+i City2
+s City3
+s City1
+degree City4
+degree City0
+d City0;City3
+d City0;City2
+d City0;City1
+shortest_d City0;City4
+shortest_d City0;City1
+shortest_d City0;City0
+shortest_d City0;City2
+print_path City0;City4
+print_path City0;City1
+print_path City0;City0
+print_path City0;City2
